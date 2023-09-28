@@ -1,0 +1,1 @@
+self.assertTrue(prog.check_format('6: Ben Schaefer'))
