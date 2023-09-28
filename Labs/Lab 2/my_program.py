@@ -12,6 +12,13 @@ def two_dot_formating(arg):
     return arg
 
 
+# adds ' ' character if needed
+def space_formating(arg):
+    if arg[2]!=' ':
+        return str(arg[:2] + ' ' + arg[2:])
+    return arg
+
+
 # distributes children amongst classes depending on their age
 def distrib_by_age(arg):
     if int(arg[0]) == 6:
@@ -23,3 +30,9 @@ def distrib_by_age(arg):
     else:
         return str(arg + ' -> Incorrect age')
 
+
+
+def exception(arg):
+    if int(arg[0]) == 5:
+        raise Exception("Age exception | 5 years -> 1st grade")
+    return arg

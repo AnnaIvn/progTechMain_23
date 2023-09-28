@@ -1,1 +1,2 @@
-self.assertTrue(prog.check_format('6: Ben Schaefer'))
+        with self.assertRaises(Exception):
+            prog.exception('8: Baley Afton')     # exception doesn't occur
