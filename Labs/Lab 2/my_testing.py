@@ -40,7 +40,7 @@ class TestMyProgram(unittest.TestCase):
     def test_exception(self):
         with self.assertRaises(Exception):
             prog.exception('5: Dyllan Bradly')   # returns true exception occurs
-            # prog.exception('8: Baley Afton')     # exception doesn't occur
+            #prog.exception('8: Baley Afton')     # exception doesn't occur
             
 
     def tearDown(self):
